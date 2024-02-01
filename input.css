@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.ficon:hover {
+  background-color: cyan;
+}
+
+.ficon {
+  transition: background-color 0.15s;
+}
